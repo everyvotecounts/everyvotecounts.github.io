@@ -1,0 +1,43 @@
+:root {
+    --accent1: #5a6e56;
+    --accent2: #3a752e;
+    --accent3: #4c054e;
+}
+/* Section: Title */
+.titlepage {
+    background-color: var(--accent1);
+}
+.titlepage > h1 {
+    font-size: 4rem;
+}
+
+/* Section: Step by Step Guide */
+.stepbystep, .whattobring {
+    margin: 1rem; padding: 1rem;
+    background-color: var(--accent2);
+    color: white;
+    background-image: url(../src/gavel_4c054e.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.stepbystep > h1, .whattobring > h1 {
+    font-size: 4rem;
+    text-align: center;
+    line-height: 1;
+    padding-top: 1rem;
+}
+.stepbystep > ol, .whattobring > ol {
+    margin: 0rem 3rem 0rem 3rem;
+    line-height: 2rem;
+}
+
+/* Section: What to Bring */
+.whattobring {
+    background-color: var(--accent3);
+    background-image: url(../src/gavel_000000.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
