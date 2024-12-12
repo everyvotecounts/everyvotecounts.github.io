@@ -1,0 +1,50 @@
+:root {
+    --accent1: #5a6e56;
+    --accent2: #3a752e;
+    --accent3: #4c054e;
+}
+/* Section: Title */
+.title {
+    background-color: var(--accent1);
+    color: white
+}
+.titlepage > h1 {
+    font-size: 4rem;
+}
+
+/* Section: Step by Step Guide */
+.stepguide, .bringtovote{
+    margin: 1rem; padding: 1rem;
+    background-color: var(--accent2);
+    color: white;
+    background-image: url(../src/gavel_4c054e.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.stepguide > ol {
+    margin: 0rem 3rem 0rem 3rem;
+    line-height: 2rem;
+}
+
+/* Section: What to Bring */
+.bringtovote {
+    background-color: var(--accent3);
+}
+.item {
+    display: flex;
+    margin: 2rem;
+    gap: 2rem
+}
+.item > .image {
+    flex: 0 0 35%;
+    text-align: right;
+}
+.item > .image > img {
+    height: 15rem
+}
+
+.return {
+    text-align: center;
+}

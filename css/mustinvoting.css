@@ -1,0 +1,39 @@
+:root {
+    --accent1: #d96219;
+    --accent2: #ae2c2c;
+    --accent3: #ffed00;
+}
+/* Section: Title */
+.title {
+    background-color: var(--accent2);
+    color: white;
+}
+
+/* Section: Main Page */
+.must {
+    margin: 1rem 3rem 1rem 3rem; padding: 4rem;
+    background-color: var(--accent1);
+    background-image: url(../src/gavel_8e2020.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    color: white;
+}
+.must > h1 {
+    line-height: 1;
+}
+.must > ol {
+    padding-left: 4rem;
+}
+.must > ol > li {
+    line-height: 2rem;
+}
+
+/* Section: Return */
+.return {
+    text-align: center;
+}
+.return > a > button {
+    background-color: var(--accent3);
+}
