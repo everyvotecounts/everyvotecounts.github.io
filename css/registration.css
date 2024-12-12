@@ -1,0 +1,14 @@
+/* Section: Collapsible Boxes */
+.collapsibles > .collapsibleItem {
+    background-color: yellow;
+}
+.collapsibles > .collapsibleItem > .collapsibleHeader {
+    cursor:pointer;
+    background-color: yellow;
+}
+.collapsibles > .collapsibleItem > .collapsibleBody {
+    display: none;
+    transition: 0.5s;
+    background-color: white;
+    margin: 1rem
+}
