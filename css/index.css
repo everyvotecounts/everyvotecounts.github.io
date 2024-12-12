@@ -4,8 +4,12 @@
     --voterrights: #e05353;
     --aboutus: #4c054e;
     --socials: #fbd230;
+    text-align: center;
 }
-/* Section: title */
+#content > .body > div {
+    padding: 4rem
+}
+/* Section: Title */
 .title {
     background-color: var(--header);
     color: white
@@ -14,25 +18,35 @@
 /* Section: Voter Rights */
 .voterrights {
     display: flex;
-    background-color: var(--voterrights);
-    color: white
+    background-image: url("/src/voting.png");
+    color: white;
+    align-items: center;
 }
-.voterrights > h2 {
+.voterrights > div:nth-of-type(1) {
     flex: 0 0 50%;
     border-right: 1px solid white;
+}
+.voterrights > div:nth-of-type(2) {
+    flex: 0 0 50%;
 }
 /* Section: About Us */
 .aboutus {
     background-color: var(--aboutus);
+    color: white;
 }
 /* Section: Mission and Vision */
 .misvis {
     text-align: center;
+    margin: 0 10rem;
 }
 /* Section: Social Media Links */
 .socials {
     background-color: var(--socials);
 }
-.socials > .socmedlinks > * {
+.socials > .socmedlinks > div {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 0.5rem 0
 }

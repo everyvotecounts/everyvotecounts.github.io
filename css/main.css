@@ -35,6 +35,9 @@ a, a:active, a:visited {
     align-items: center;
     justify-content: space-between;
     padding: 1rem 5rem;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 .header > .logo > img {
     height: 4rem;
@@ -85,6 +88,7 @@ a, a:active, a:visited {
 .footer {
     display: flex;
     align-items: center;
+    padding: 4rem;
 }
 
 .footer > div {
