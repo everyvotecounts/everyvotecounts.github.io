@@ -21,6 +21,10 @@ h1 {
     font-size: 5rem;
     font-family: "Roc Grotesk", sans-serif;
 }
+h2 {
+    font-size: 3rem;
+    font-family: "Roc Grotesk", sans-serif;
+}
 a, a:active, a:visited {
     text-decoration:none;
 }

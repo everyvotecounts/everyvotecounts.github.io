@@ -1,6 +1,20 @@
+/* Section: General Definitions */
+:root {
+    --maincontent: #004aad;
+}
+/* Section: Title */
+.title {
+    background-color:cyan;
+}
+/* Section: Main Content */
+.main {
+    background-color: var(--maincontent);
+    color: white;
+}
 /* Section: Collapsible Boxes */
 .collapsibles > .collapsibleItem {
     background-color: yellow;
+    color: black;
 }
 .collapsibles > .collapsibleItem > .collapsibleHeader {
     cursor:pointer;
@@ -10,5 +24,5 @@
     display: none;
     transition: 0.5s;
     background-color: white;
-    margin: 1rem
+    margin: 0.5rem; /* WARNING: buggy yung pag popup */
 }

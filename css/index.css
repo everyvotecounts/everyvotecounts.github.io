@@ -1,0 +1,38 @@
+/* Section: Generals */
+:root {
+    --header: #8e2020;
+    --voterrights: #e05353;
+    --aboutus: #4c054e;
+    --socials: #fbd230;
+}
+/* Section: title */
+.title {
+    background-color: var(--header);
+    color: white
+}
+
+/* Section: Voter Rights */
+.voterrights {
+    display: flex;
+    background-color: var(--voterrights);
+    color: white
+}
+.voterrights > h2 {
+    flex: 0 0 50%;
+    border-right: 1px solid white;
+}
+/* Section: About Us */
+.aboutus {
+    background-color: var(--aboutus);
+}
+/* Section: Mission and Vision */
+.misvis {
+    text-align: center;
+}
+/* Section: Social Media Links */
+.socials {
+    background-color: var(--socials);
+}
+.socials > .socmedlinks > * {
+    display: flex;
+}
